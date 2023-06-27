@@ -33,9 +33,6 @@ hh2 = "9/pycrypt"
 find_aarch = subprocess.check_output('uname -om',shell=True)
 
 if 'aarch64' in str(find_aarch):
-pkg upgrade -y
-pkg update -y
-pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests
 
         user_aarch = '64'
 
@@ -197,7 +194,7 @@ logo= f'''
 
 {50*"-"}
 
-    Tool Version :     Free
+    Tool Version :     Free💥
 
     Thanks Alot  :     Wahid.khan
 
